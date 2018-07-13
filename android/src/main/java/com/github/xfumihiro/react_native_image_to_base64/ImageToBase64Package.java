@@ -22,7 +22,6 @@ public class ImageToBase64Package implements ReactPackage {
     return modules;
   }
 
-  @Override
   public List<Class<? extends JavaScriptModule>> createJSModules() {
     return Collections.emptyList();
   }
